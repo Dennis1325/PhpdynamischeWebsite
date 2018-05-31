@@ -16,7 +16,7 @@ if ($_POST["email"] == ""){
 }
 if ($_POST["wachtwoord"] == ""){
     echo "je moet nog een wachtwoord invullen <br>";
-    echo ">Terug naar het formulier</a>";
+    echo "<a href='Formulier.html'>Terug naar het formulier</a>";
 }
 else{
     echo "Voornaam: ".$_POST["voornaam"]."<br>" ;
